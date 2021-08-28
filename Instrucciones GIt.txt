@@ -1,0 +1,34 @@
+- Establecer conexión entre repositorio local y web -> SOLO SE HACE LA PRIMERA VEZ
+1. Crear una carpeta, vacía, en una dirección de interés
+2. Copiar la dirección de la carpeta 
+3. Abrir la terminal (MAc o Linux) o Símbolo del sistema
+4. Accedemos a la dirección 
+	cd <dir> (change directory)
+	cd C:\Users\Acer\Documents\Colombia\Mintic\Misión MinTic\Tercer Ciclo\Desarrollo de Software\Semana 1\Cuero (Ejemplo)
+5. Inicializar Repositorio 
+	git init
+6. Establecer conexión 
+	git remote add origin <url>
+	git remote add origin https://github.com/caroma96/Ecommerce-cuero
+
+- Protocolo de seguridad GitHub (Crear token de autenticación)
+1. Ingresar a nuestra cuenta personal de github
+2. Haciendo click en el "avatar" (figurita) nos dirigimos a settings 
+3. Accedemos a 'developer settings' 
+4. Click en 'Personal Acess Tokens'
+5. Crear Token especificando para qué es, la duración , etc.
+6. Usar token come contraseña para hacer push al repositorio
+
+- Subida de archivos al repositorio web 
+1. Copiar la dirección de la carpeta 
+2. Abrir la terminal (MAc o Linux) o Símbolo del sistema
+3. Accedemos a la dirección 
+	cd <dir> (change directory)
+	cd C:\Users\Acer\Documents\Colombia\Mintic\Misión MinTic\Tercer Ciclo\Desarrollo de Software\Semana 1\Cuero (Ejemplo)
+4. (Opcional) Verificar cambios entre local y web
+	git status
+5. Añadir los nuevos archivos
+	git add <Nombre archivo>
+	git add . (Agrega todos los archivos)
+6. Documentar el cambio (establecer comentarios) -> documentar cambios en el repositorio
+	git commit -m 
